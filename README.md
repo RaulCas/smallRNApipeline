@@ -7,7 +7,7 @@ Dependencies:
   - Slurm Workload Manager
   - Python/Biopython
   - Fastqc
-  - BBduk
+  - BBDuk
   - Bowtie
   - Samtools
   - Bedtools
