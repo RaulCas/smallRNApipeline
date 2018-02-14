@@ -1,6 +1,6 @@
 # smallRNApipeline
 
-Pipeline for cleaning smallRNAseq reads: 
+Pipeline for cleaning and mapping smallRNAseq reads: 
 
 Dependencies:
 
