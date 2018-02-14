@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 
 #########################################################################
 #
@@ -27,7 +27,7 @@ newjobnum=str(jobnum).replace("Submitted batch job ", "")
 
 # STEP2: submit the second job: BBduk to filter adapters, contaminants and size-select (17-30nt)
 
-cmd2 = "sbatch --depend=afterany:%s %s/trim_adapters.sh %s" % (newjobnum, scripts_path, infile)
+cmd2 = "sbatch %s/trim_adapters.sh %s" % (scripts_path, infile)
 print "Submitting Job2 with command: %s" % cmd2
 status,jobnum = commands.getstatusoutput(cmd2)
 if (status == 0 ):
