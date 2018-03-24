@@ -85,7 +85,7 @@ else:
 
 newjobnum=str(jobnum).replace("Submitted batch job ", "")
 
-"""
+
 # STEP 7: Map with Butter
 
 cmd6 = "sbatch -p short --depend=afterany:%s %s/butter.sh" % (newjobnum, scripts_path)
@@ -96,7 +96,6 @@ if (status == 0 ):
 else:
     print "Error submitting Job7"
 
-"""
 
 
 
