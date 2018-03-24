@@ -9,7 +9,8 @@ Dependencies:
   - Fastqc
   - BBDuk
   - Bowtie
-  - Samtools
-  - Bedtools
+
   
-python smallRNApipeline.py raw_reads.fastq
+USAGE: python smallRNApipeline.py raw_reads.fastq
+
+Important: This pipeline is prepared to work in the UCR biocluster. The path to the scripts folder will need to be changed in the code in order to make it work in other systems.
