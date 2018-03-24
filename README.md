@@ -9,6 +9,8 @@ Dependencies:
   - Fastqc
   - BBDuk
   - Bowtie
+  - Butter
+  - Samtools
 
   
 USAGE: python smallRNApipeline.py raw_reads.fastq
